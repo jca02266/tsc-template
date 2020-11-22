@@ -13,3 +13,8 @@ npm i --save-dev eslint-config-prettier
 #     "build": "webpack",
 #     "watch": "webpack -w",
 #     "lint": "eslint src -c .eslintrc.js --ext ts,tsx; exit 0",)' package.json
+
+# test (Jest)
+npm i --save-dev jest ts-jest @types/jest
+npx jest -init
+# run test `npm t`
